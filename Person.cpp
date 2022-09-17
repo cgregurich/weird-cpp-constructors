@@ -1,9 +1,9 @@
 #include "Person.h"
 #include <iostream>
 
-Person::Person(Pet pet) : pet(pet) {}
 
-Person::Person(const char* petName)
+Person::Person(int x)
 {
-	pet = Pet(petName);
+	std::cout << "Person(x) -> " << x << std::endl;
+	pet = Pet(x);
 }

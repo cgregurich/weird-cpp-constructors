@@ -3,6 +3,6 @@
 #pragma once
 struct Pet
 {
-	Pet(const char* name);
+	Pet(int x);
 
 };

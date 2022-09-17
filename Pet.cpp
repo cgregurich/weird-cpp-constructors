@@ -1,6 +1,6 @@
 #include "Pet.h"
 #include <iostream>
-Pet::Pet(const char* name)
+Pet::Pet(int x)
 {
-	std::cout << "Pet(const char* name) -> " << name << std::endl;
+	std::cout << "Pet(int x) -> " << x << std::endl;
 }

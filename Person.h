@@ -5,8 +5,7 @@
 struct Person
 {
 	Pet pet = NULL;
-	Person(Pet pet);
-	Person(const char* petName);
+	Person(int x);
 
 
 };

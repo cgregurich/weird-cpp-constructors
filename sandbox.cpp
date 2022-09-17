@@ -5,7 +5,7 @@
 
 int main()
 {
-	Person p("Bootersket");
+	Person p(6);
 
 
 	return 0;
